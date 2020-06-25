@@ -1,0 +1,157 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+  background-image: linear-gradient(-90deg, blue, black);
+}
+
+h1 { 
+  color: #ededed; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 60px; 
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  line-height: 1; 
+  text-align: center; 
+}
+
+header, nav, section{
+  margin: 3%;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.tarea {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 220px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.tarea:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.btnNuevaLista {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 50px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 150px;
+}
+
+.btnNuevaTarea {
+  background: rgb(240, 147, 7);
+  border: 1px solid rgb(163, 163, 165);
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 35x;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+}
+
+.btnBorrarTarea{
+  background: rgb(226, 88, 7);
+  border: 1px solid rgb(163, 163, 165);
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 35x;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+}
+
+#secPerfil{
+  display: flex;
+}
+.one {
+  flex: 1 1 auto;
+}
+.two {
+  flex: 1 1 auto;
+}
+
+.tableroSection{
+  display: flex;
+}
+
+.tituloLista{
+  color: #ededed; 
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 30px; 
+  font-weight: bold; 
+  letter-spacing: -1px; 
+  line-height: 1; 
+  text-align: center; 
+}
+
+textarea{
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 20px;
+  height: 150px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  resize: none;
+}
+
+.sectionList{
+  background-color: blueviolet;
+  overflow: scroll;
+  height: 450px;
+  width: 170px;
+}
